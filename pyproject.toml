@@ -1,0 +1,16 @@
+[project]
+name = "mcp-core"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiohttp>=3.13.2",
+    "beautifulsoup4>=4.14.2",
+    "bs4>=0.0.2",
+    "fastmcp[sse]>=2.13.0.2",
+    "httpx>=0.28.1",
+    "lxml>=6.0.2",
+    "mcp[cli]>=1.21.0",
+    "uvicorn>=0.38.0",
+]
